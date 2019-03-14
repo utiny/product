@@ -20,7 +20,7 @@ pipeline {
 	    
 	    stage('build docker image') {
 	     steps {
-	        sh '/usr/local/bin/docker/docker build -t product:latest .'
+	        sh '/usr/local/bin/docker build -t product:latest .'
 	      }
     	}
     }
