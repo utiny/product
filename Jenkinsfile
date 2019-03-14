@@ -14,13 +14,13 @@ pipeline {
         
         stage('compile') {
 	      steps {
-	        sh '/usr/local/Cellar/maven/3.6.0/libexec/bin/mvn clean install'
+	        sh 'mvn clean install'
 	      }
 	    }
 	    
 	    stage('build docker image') {
 	     steps {
-	        sh '/usr/local/bin/docker build -t product:latest .'
+	        sh 'docker build -t product:latest .'
 	      }
     	}
     }
