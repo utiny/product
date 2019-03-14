@@ -1,0 +1,35 @@
+2019-03-14 09:15:36.913  INFO 27672 --- [main] c.i.i.h.product.ProductApplicationTests  : Starting ProductApplicationTests on niladris-MacBook-Pro.local with PID 27672 (started by niladri in /Users/niladri/workspace/healthcare/product)
+2019-03-14 09:15:36.914 DEBUG 27672 --- [main] c.i.i.h.product.ProductApplicationTests  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-14 09:15:36.915  INFO 27672 --- [main] c.i.i.h.product.ProductApplicationTests  : No active profile set, falling back to default profiles: default
+2019-03-14 09:15:38.483  INFO 27672 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-14 09:15:39.079  INFO 27672 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-14 09:15:39.132  INFO 27672 --- [main] c.i.i.h.product.ProductApplicationTests  : Started ProductApplicationTests in 2.5 seconds (JVM running for 3.288)
+2019-03-14 09:15:39.372  INFO 27672 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-14 11:37:48.519  INFO 44912 --- [main] c.i.i.h.product.ProductApplicationTests  : Starting ProductApplicationTests on niladris-MacBook-Pro.local with PID 44912 (started by niladri in /Users/niladri/workspace/healthcare/product)
+2019-03-14 11:37:48.521 DEBUG 44912 --- [main] c.i.i.h.product.ProductApplicationTests  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-14 11:37:48.521  INFO 44912 --- [main] c.i.i.h.product.ProductApplicationTests  : No active profile set, falling back to default profiles: default
+2019-03-14 11:37:49.894  INFO 44912 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-14 11:37:50.460  INFO 44912 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-14 11:37:50.514  INFO 44912 --- [main] c.i.i.h.product.ProductApplicationTests  : Started ProductApplicationTests in 2.198 seconds (JVM running for 2.811)
+2019-03-14 11:37:50.673  INFO 44912 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-14 11:37:59.955  INFO 44934 --- [main] c.i.i.h.product.ProductApplicationTests  : Starting ProductApplicationTests on niladris-MacBook-Pro.local with PID 44934 (started by niladri in /Users/niladri/workspace/healthcare/product)
+2019-03-14 11:37:59.956 DEBUG 44934 --- [main] c.i.i.h.product.ProductApplicationTests  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-14 11:37:59.957  INFO 44934 --- [main] c.i.i.h.product.ProductApplicationTests  : No active profile set, falling back to default profiles: default
+2019-03-14 11:38:01.350  INFO 44934 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-14 11:38:01.920  INFO 44934 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-14 11:38:01.971  INFO 44934 --- [main] c.i.i.h.product.ProductApplicationTests  : Started ProductApplicationTests in 2.243 seconds (JVM running for 2.867)
+2019-03-14 11:38:02.134  INFO 44934 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-14 11:51:25.528  INFO 45028 --- [main] c.i.i.h.product.ProductApplicationTests  : Starting ProductApplicationTests on niladris-MacBook-Pro.local with PID 45028 (started by niladri in /Users/niladri/workspace/healthcare/product)
+2019-03-14 11:51:25.529 DEBUG 45028 --- [main] c.i.i.h.product.ProductApplicationTests  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-14 11:51:25.530  INFO 45028 --- [main] c.i.i.h.product.ProductApplicationTests  : No active profile set, falling back to default profiles: default
+2019-03-14 11:51:26.935  INFO 45028 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-14 11:51:27.504  INFO 45028 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-14 11:51:27.552  INFO 45028 --- [main] c.i.i.h.product.ProductApplicationTests  : Started ProductApplicationTests in 2.239 seconds (JVM running for 2.855)
+2019-03-14 11:51:27.711  INFO 45028 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-14 12:52:57.795  INFO 45252 --- [main] c.i.i.h.product.ProductApplicationTests  : Starting ProductApplicationTests on niladris-MacBook-Pro.local with PID 45252 (started by niladri in /Users/niladri/workspace/product)
+2019-03-14 12:52:57.796 DEBUG 45252 --- [main] c.i.i.h.product.ProductApplicationTests  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-14 12:52:57.797  INFO 45252 --- [main] c.i.i.h.product.ProductApplicationTests  : No active profile set, falling back to default profiles: default
+2019-03-14 12:52:59.217  INFO 45252 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-14 12:52:59.776  INFO 45252 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-14 12:52:59.825  INFO 45252 --- [main] c.i.i.h.product.ProductApplicationTests  : Started ProductApplicationTests in 2.243 seconds (JVM running for 2.857)
+2019-03-14 12:52:59.978  INFO 45252 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
