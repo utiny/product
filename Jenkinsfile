@@ -23,40 +23,17 @@ pipeline {
 	        sh 'docker build -t product:latest .'
 	      }
     	}
-    }
-}
-/*
-pipeline {
-    agent any
-     
-    stages { 
-    
-    	stage ('Initialize') {
-            steps {
-                sh '''
-                    echo "PATH = ${PATH}"
-                    echo "M2_HOME = ${M2_HOME}"
-                ''' 
-            }
-        }
-        
-        stage('Clone repository') {
-    	    checkout scm
-	    }
-        
-        stage('compile') {
-	      steps {
-	        sh 'mvn clean install'
+    	
+    	stage('push image') {
+	     steps {
+	        sh 'docker login -u=admin -p=admin https://mycluster.icp:8500'
+	        sh 'docker tag product:latest mycluster.icp:8500/ibmcom/product:latest'
+	        sh 'docker push mycluster.icp:8500/ibmcom/product:latest'
 	      }
-	    }
-	    
-        stage('Build image') {
-	       
-	        app = docker.build("product")
     	}
     }
 }
-*/
+
 
 
 	/*
