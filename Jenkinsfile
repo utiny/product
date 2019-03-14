@@ -17,6 +17,10 @@ pipeline {
 	        sh '/usr/local/Cellar/maven/3.6.0/libexec/bin/mvn clean install'
 	      }
 	    }
+	    
+	    stage('Build image') {
+	        app = docker.build("product")
+    	}
     }
 }
 /*
