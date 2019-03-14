@@ -50,7 +50,9 @@ node {
          * docker build on the command line */
 
         /*app = docker.build("ernesen/icp-tech-talks")*/
-		app = docker.build("product")
+        steps {
+			app = docker.build("product")
+		}
     }
 
     stage('Test image') {

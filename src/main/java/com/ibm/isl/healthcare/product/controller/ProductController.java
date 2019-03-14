@@ -33,6 +33,7 @@ public class ProductController {
 	
     @GetMapping(value = "/product/{productId}", produces = {"application/JSON"})
     public Product getProductDetail(@PathVariable(value = "productId") long productId) {
+    	logger.debug("INSIDE getProductDetail");
     	logger.debug("productId:"+productId);
         return new Product();
     }
