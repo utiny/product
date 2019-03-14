@@ -18,8 +18,8 @@ pipeline {
 	      }
 	    }
 	    
-	    stage('Build image') {
-	        app = docker.build("product")
+	    stage('build docker image') {
+	        sh 'docker build -t product:latest .'
     	}
     }
 }
