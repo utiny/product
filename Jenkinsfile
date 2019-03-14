@@ -39,12 +39,18 @@ node {
         checkout scm
     }
 
+	stage('compile') {
+      steps {
+        sh 'mvn clean install'
+      }
+    }
+	    
     stage('Build image') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
         /*app = docker.build("ernesen/icp-tech-talks")*/
-		app = docker.build("${env.IMAGE_BUILD}")
+		app = docker.build("product")
     }
 
     stage('Test image') {
