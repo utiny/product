@@ -1,5 +1,5 @@
 pipeline {
-    agent { dockerfile true }
+    agent ANY
      
     stages { 
     
@@ -18,7 +18,7 @@ pipeline {
         
         stage('compile') {
 	      steps {
-	        sh '/usr/local/Cellar/maven/3.6.0/libexec/bin/mvn clean install'
+	        sh 'mvn clean install'
 	      }
 	    }
 	    
