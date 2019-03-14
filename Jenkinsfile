@@ -19,7 +19,9 @@ pipeline {
 	    }
 	    
 	    stage('build docker image') {
+	     steps {
 	        sh 'docker build -t product:latest .'
+	      }
     	}
     }
 }
