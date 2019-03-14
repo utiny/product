@@ -14,7 +14,7 @@ pipeline {
         
         stage('compile') {
 	      steps {
-	        sh 'mvn clean install'
+	        sh '/usr/local/Cellar/maven/3.6.0/libexec/mvn clean install'
 	      }
 	    }
     }
